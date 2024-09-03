@@ -20,6 +20,7 @@ function buttonClicked(){
 	butt.addEventListener("click", function() {
 		DeleteClicked(list);
 	});
+	input.focus();
 }
 
 function DeleteClicked(list){
